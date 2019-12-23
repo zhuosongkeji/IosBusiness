@@ -1,0 +1,42 @@
+//
+//  AD.pch
+//  AnDouBusiness
+//
+//  Created by 周芳圆 on 2019/12/4.
+//  Copyright © 2019 ZhouBunian. All rights reserved.
+//
+
+#ifndef AD_pch
+#define AD_pch
+
+// 日志输出
+#ifdef DEBUG // 开发阶段-DEBUG阶段:使用Log
+#define ADLog(...) NSLog(__VA_ARGS__)
+#else // 发布阶段-上线阶段:移除Log
+#define ADLog(...)
+#endif
+
+#import "UIImageView+ADExtension.h"
+#import "UIImage+ADExtension.h"
+#import "UIView+ADExtension.h"
+#import "ADConst.h"
+
+
+// 方法输出
+#define ADLogFunc NSLog(@"%s", __func__)
+
+// 颜色
+#define ADARGBColor(a, r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define ADColor(r, g, b) ADARGBColor(255, (r), (g), (b))
+#define ADGrayColor(v) ADColor((v), (v), (v))
+#define ADCommonBgColor ADGrayColor(241)
+
+// 弱引用
+#define ADWeakSelf __weak typeof(self) weakSelf = self;
+
+// 屏幕尺寸
+#define ADScreenH [UIScreen mainScreen].bounds.size.height
+#define ADScreenW [UIScreen mainScreen].bounds.size.width
+
+
+#endif /* AD_pch */

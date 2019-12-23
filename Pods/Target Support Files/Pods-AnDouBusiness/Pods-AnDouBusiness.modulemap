@@ -1,0 +1,6 @@
+framework module Pods_AnDouBusiness {
+  umbrella header "Pods-AnDouBusiness-umbrella.h"
+
+  export *
+  module * { export * }
+}
