@@ -118,6 +118,44 @@
 		F47921D023AE1A4000C7CB71 /* ADSHUploadNewGoodsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F47921CF23AE1A4000C7CB71 /* ADSHUploadNewGoodsVC.m */; };
 		F47921D423AE1A5500C7CB71 /* ADSHUploadNewGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F47921D223AE1A5500C7CB71 /* ADSHUploadNewGoodsCell.m */; };
 		F47921D523AE1A5500C7CB71 /* ADSHUploadNewGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47921D323AE1A5500C7CB71 /* ADSHUploadNewGoodsCell.xib */; };
+		F491149E23B19E310099F8ED /* ADRestaurantHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F491149D23B19E310099F8ED /* ADRestaurantHomeVC.xib */; };
+		F49114A223B19EE40099F8ED /* ADRTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114A023B19EE40099F8ED /* ADRTCell.m */; };
+		F49114A323B19EE40099F8ED /* ADRTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49114A123B19EE40099F8ED /* ADRTCell.xib */; };
+		F49114A823B1A7A00099F8ED /* ADRTMywalletVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114A723B1A7A00099F8ED /* ADRTMywalletVC.m */; };
+		F49114AB23B1A7D20099F8ED /* ADRTCarryMoneyDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114AA23B1A7D20099F8ED /* ADRTCarryMoneyDetailVC.m */; };
+		F49114AE23B1A7E30099F8ED /* ADRTBalanceDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114AD23B1A7E30099F8ED /* ADRTBalanceDetailVC.m */; };
+		F49114B123B1ABB20099F8ED /* ADRTMyNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114B023B1ABB20099F8ED /* ADRTMyNewsVC.m */; };
+		F49114B623B1ACBC0099F8ED /* ADRTShopManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114B523B1ACBC0099F8ED /* ADRTShopManageVC.m */; };
+		F49114BA23B1ACF80099F8ED /* ADRTShopManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114B823B1ACF80099F8ED /* ADRTShopManageCell.m */; };
+		F49114BB23B1ACF80099F8ED /* ADRTShopManageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49114B923B1ACF80099F8ED /* ADRTShopManageCell.xib */; };
+		F49114BF23B1B07C0099F8ED /* ADRTFoodsManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114BE23B1B07C0099F8ED /* ADRTFoodsManageVC.m */; };
+		F49114C323B1B08F0099F8ED /* ADRTFoodsManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114C123B1B08F0099F8ED /* ADRTFoodsManageCell.m */; };
+		F49114C423B1B08F0099F8ED /* ADRTFoodsManageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49114C223B1B08F0099F8ED /* ADRTFoodsManageCell.xib */; };
+		F49114C723B1B1060099F8ED /* ADRTFoodsManageTitlesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114C623B1B1060099F8ED /* ADRTFoodsManageTitlesView.m */; };
+		F49114C923B1B10F0099F8ED /* ADRTFoodsManageTitlesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49114C823B1B10F0099F8ED /* ADRTFoodsManageTitlesView.xib */; };
+		F49114CC23B1B4060099F8ED /* ADRTUploadNewFoodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114CB23B1B4060099F8ED /* ADRTUploadNewFoodVC.m */; };
+		F49114D023B1B4230099F8ED /* ADRTUploadNewFoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114CE23B1B4230099F8ED /* ADRTUploadNewFoodCell.m */; };
+		F49114D123B1B4230099F8ED /* ADRTUploadNewFoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49114CF23B1B4230099F8ED /* ADRTUploadNewFoodCell.xib */; };
+		F49114D723B1B9EB0099F8ED /* ADRTCancelOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114D623B1B9EB0099F8ED /* ADRTCancelOrderVC.m */; };
+		F49114DB23B1BA000099F8ED /* ADRTCancelOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114D923B1BA000099F8ED /* ADRTCancelOrderCell.m */; };
+		F49114DE23B1BCC70099F8ED /* ADRTCancelOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49114DD23B1BCC70099F8ED /* ADRTCancelOrderCell.xib */; };
+		F49114E123B1C1FD0099F8ED /* ADRTDoneOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114E023B1C1FD0099F8ED /* ADRTDoneOrderVC.m */; };
+		F49114E523B1C2120099F8ED /* ADRTDoneOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114E323B1C2120099F8ED /* ADRTDoneOrderCell.m */; };
+		F49114E623B1C2120099F8ED /* ADRTDoneOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49114E423B1C2120099F8ED /* ADRTDoneOrderCell.xib */; };
+		F49114E923B1C38E0099F8ED /* ADRTBookingOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114E823B1C38E0099F8ED /* ADRTBookingOrderVC.m */; };
+		F49114ED23B1C3BC0099F8ED /* ADRTBookingOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114EB23B1C3BC0099F8ED /* ADRTBookingOrderCell.m */; };
+		F49114EE23B1C3BC0099F8ED /* ADRTBookingOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49114EC23B1C3BC0099F8ED /* ADRTBookingOrderCell.xib */; };
+		F49114F123B1DE110099F8ED /* ADRTBookingOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114F023B1DE110099F8ED /* ADRTBookingOrderDetailVC.m */; };
+		F49114F423B1DE300099F8ED /* ADRTBookingOrderDetailHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114F323B1DE300099F8ED /* ADRTBookingOrderDetailHeader.m */; };
+		F49114F723B1DE3D0099F8ED /* ADRTBookingOrderDetailFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114F623B1DE3D0099F8ED /* ADRTBookingOrderDetailFooter.m */; };
+		F49114FA23B1DE640099F8ED /* ADRTBookingOrderCellSectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F49114F923B1DE640099F8ED /* ADRTBookingOrderCellSectionFooter.m */; };
+		F491150123B1DFB60099F8ED /* ADRTBookingOrderDetailHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F491150023B1DFB60099F8ED /* ADRTBookingOrderDetailHeader.xib */; };
+		F491150323B1E2BD0099F8ED /* ADRTBookingOrderDetailFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = F491150223B1E2BD0099F8ED /* ADRTBookingOrderDetailFooter.xib */; };
+		F491150523B1E45D0099F8ED /* ADRTBookingOrderCellSectionFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = F491150423B1E45D0099F8ED /* ADRTBookingOrderCellSectionFooter.xib */; };
+		F491150923B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F491150723B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.m */; };
+		F491150A23B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F491150823B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.xib */; };
+		F491150D23B1F5CA0099F8ED /* UIButton+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = F491150B23B1F5CA0099F8ED /* UIButton+Ex.m */; };
+		F491151323B1FC260099F8ED /* ADNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F491151223B1FC260099F8ED /* ADNavigationBar.m */; };
 		F492F07B23B04CB300EA8B80 /* ADNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F492F07A23B04CB300EA8B80 /* ADNavigationController.m */; };
 		F492F08023B0599A00EA8B80 /* ADNoTificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F492F07F23B0599A00EA8B80 /* ADNoTificationVC.m */; };
 		F492F08423B059B300EA8B80 /* ADNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F492F08223B059B300EA8B80 /* ADNotificationCell.m */; };
@@ -370,6 +408,69 @@
 		F47921D123AE1A5500C7CB71 /* ADSHUploadNewGoodsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADSHUploadNewGoodsCell.h; sourceTree = "<group>"; };
 		F47921D223AE1A5500C7CB71 /* ADSHUploadNewGoodsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADSHUploadNewGoodsCell.m; sourceTree = "<group>"; };
 		F47921D323AE1A5500C7CB71 /* ADSHUploadNewGoodsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADSHUploadNewGoodsCell.xib; sourceTree = "<group>"; };
+		F491149D23B19E310099F8ED /* ADRestaurantHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRestaurantHomeVC.xib; sourceTree = "<group>"; };
+		F491149F23B19EE40099F8ED /* ADRTCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTCell.h; sourceTree = "<group>"; };
+		F49114A023B19EE40099F8ED /* ADRTCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTCell.m; sourceTree = "<group>"; };
+		F49114A123B19EE40099F8ED /* ADRTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTCell.xib; sourceTree = "<group>"; };
+		F49114A623B1A7A00099F8ED /* ADRTMywalletVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTMywalletVC.h; sourceTree = "<group>"; };
+		F49114A723B1A7A00099F8ED /* ADRTMywalletVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTMywalletVC.m; sourceTree = "<group>"; };
+		F49114A923B1A7D20099F8ED /* ADRTCarryMoneyDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTCarryMoneyDetailVC.h; sourceTree = "<group>"; };
+		F49114AA23B1A7D20099F8ED /* ADRTCarryMoneyDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTCarryMoneyDetailVC.m; sourceTree = "<group>"; };
+		F49114AC23B1A7E30099F8ED /* ADRTBalanceDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTBalanceDetailVC.h; sourceTree = "<group>"; };
+		F49114AD23B1A7E30099F8ED /* ADRTBalanceDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTBalanceDetailVC.m; sourceTree = "<group>"; };
+		F49114AF23B1ABB20099F8ED /* ADRTMyNewsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTMyNewsVC.h; sourceTree = "<group>"; };
+		F49114B023B1ABB20099F8ED /* ADRTMyNewsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTMyNewsVC.m; sourceTree = "<group>"; };
+		F49114B423B1ACBC0099F8ED /* ADRTShopManageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTShopManageVC.h; sourceTree = "<group>"; };
+		F49114B523B1ACBC0099F8ED /* ADRTShopManageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTShopManageVC.m; sourceTree = "<group>"; };
+		F49114B723B1ACF80099F8ED /* ADRTShopManageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTShopManageCell.h; sourceTree = "<group>"; };
+		F49114B823B1ACF80099F8ED /* ADRTShopManageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTShopManageCell.m; sourceTree = "<group>"; };
+		F49114B923B1ACF80099F8ED /* ADRTShopManageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTShopManageCell.xib; sourceTree = "<group>"; };
+		F49114BD23B1B07C0099F8ED /* ADRTFoodsManageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTFoodsManageVC.h; sourceTree = "<group>"; };
+		F49114BE23B1B07C0099F8ED /* ADRTFoodsManageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTFoodsManageVC.m; sourceTree = "<group>"; };
+		F49114C023B1B08F0099F8ED /* ADRTFoodsManageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTFoodsManageCell.h; sourceTree = "<group>"; };
+		F49114C123B1B08F0099F8ED /* ADRTFoodsManageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTFoodsManageCell.m; sourceTree = "<group>"; };
+		F49114C223B1B08F0099F8ED /* ADRTFoodsManageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTFoodsManageCell.xib; sourceTree = "<group>"; };
+		F49114C523B1B1060099F8ED /* ADRTFoodsManageTitlesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTFoodsManageTitlesView.h; sourceTree = "<group>"; };
+		F49114C623B1B1060099F8ED /* ADRTFoodsManageTitlesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTFoodsManageTitlesView.m; sourceTree = "<group>"; };
+		F49114C823B1B10F0099F8ED /* ADRTFoodsManageTitlesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTFoodsManageTitlesView.xib; sourceTree = "<group>"; };
+		F49114CA23B1B4060099F8ED /* ADRTUploadNewFoodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTUploadNewFoodVC.h; sourceTree = "<group>"; };
+		F49114CB23B1B4060099F8ED /* ADRTUploadNewFoodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTUploadNewFoodVC.m; sourceTree = "<group>"; };
+		F49114CD23B1B4230099F8ED /* ADRTUploadNewFoodCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTUploadNewFoodCell.h; sourceTree = "<group>"; };
+		F49114CE23B1B4230099F8ED /* ADRTUploadNewFoodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTUploadNewFoodCell.m; sourceTree = "<group>"; };
+		F49114CF23B1B4230099F8ED /* ADRTUploadNewFoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTUploadNewFoodCell.xib; sourceTree = "<group>"; };
+		F49114D523B1B9EB0099F8ED /* ADRTCancelOrderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTCancelOrderVC.h; sourceTree = "<group>"; };
+		F49114D623B1B9EB0099F8ED /* ADRTCancelOrderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTCancelOrderVC.m; sourceTree = "<group>"; };
+		F49114D823B1BA000099F8ED /* ADRTCancelOrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTCancelOrderCell.h; sourceTree = "<group>"; };
+		F49114D923B1BA000099F8ED /* ADRTCancelOrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTCancelOrderCell.m; sourceTree = "<group>"; };
+		F49114DD23B1BCC70099F8ED /* ADRTCancelOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTCancelOrderCell.xib; sourceTree = "<group>"; };
+		F49114DF23B1C1FD0099F8ED /* ADRTDoneOrderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTDoneOrderVC.h; sourceTree = "<group>"; };
+		F49114E023B1C1FD0099F8ED /* ADRTDoneOrderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTDoneOrderVC.m; sourceTree = "<group>"; };
+		F49114E223B1C2120099F8ED /* ADRTDoneOrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTDoneOrderCell.h; sourceTree = "<group>"; };
+		F49114E323B1C2120099F8ED /* ADRTDoneOrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTDoneOrderCell.m; sourceTree = "<group>"; };
+		F49114E423B1C2120099F8ED /* ADRTDoneOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTDoneOrderCell.xib; sourceTree = "<group>"; };
+		F49114E723B1C38E0099F8ED /* ADRTBookingOrderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTBookingOrderVC.h; sourceTree = "<group>"; };
+		F49114E823B1C38E0099F8ED /* ADRTBookingOrderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTBookingOrderVC.m; sourceTree = "<group>"; };
+		F49114EA23B1C3BC0099F8ED /* ADRTBookingOrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTBookingOrderCell.h; sourceTree = "<group>"; };
+		F49114EB23B1C3BC0099F8ED /* ADRTBookingOrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTBookingOrderCell.m; sourceTree = "<group>"; };
+		F49114EC23B1C3BC0099F8ED /* ADRTBookingOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTBookingOrderCell.xib; sourceTree = "<group>"; };
+		F49114EF23B1DE110099F8ED /* ADRTBookingOrderDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTBookingOrderDetailVC.h; sourceTree = "<group>"; };
+		F49114F023B1DE110099F8ED /* ADRTBookingOrderDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTBookingOrderDetailVC.m; sourceTree = "<group>"; };
+		F49114F223B1DE300099F8ED /* ADRTBookingOrderDetailHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTBookingOrderDetailHeader.h; sourceTree = "<group>"; };
+		F49114F323B1DE300099F8ED /* ADRTBookingOrderDetailHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTBookingOrderDetailHeader.m; sourceTree = "<group>"; };
+		F49114F523B1DE3D0099F8ED /* ADRTBookingOrderDetailFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTBookingOrderDetailFooter.h; sourceTree = "<group>"; };
+		F49114F623B1DE3D0099F8ED /* ADRTBookingOrderDetailFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTBookingOrderDetailFooter.m; sourceTree = "<group>"; };
+		F49114F823B1DE640099F8ED /* ADRTBookingOrderCellSectionFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTBookingOrderCellSectionFooter.h; sourceTree = "<group>"; };
+		F49114F923B1DE640099F8ED /* ADRTBookingOrderCellSectionFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTBookingOrderCellSectionFooter.m; sourceTree = "<group>"; };
+		F491150023B1DFB60099F8ED /* ADRTBookingOrderDetailHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTBookingOrderDetailHeader.xib; sourceTree = "<group>"; };
+		F491150223B1E2BD0099F8ED /* ADRTBookingOrderDetailFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTBookingOrderDetailFooter.xib; sourceTree = "<group>"; };
+		F491150423B1E45D0099F8ED /* ADRTBookingOrderCellSectionFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTBookingOrderCellSectionFooter.xib; sourceTree = "<group>"; };
+		F491150623B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADRTBookingOrderDetailCell.h; sourceTree = "<group>"; };
+		F491150723B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADRTBookingOrderDetailCell.m; sourceTree = "<group>"; };
+		F491150823B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADRTBookingOrderDetailCell.xib; sourceTree = "<group>"; };
+		F491150B23B1F5CA0099F8ED /* UIButton+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Ex.m"; sourceTree = "<group>"; };
+		F491150C23B1F5CA0099F8ED /* UIButton+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Ex.h"; sourceTree = "<group>"; };
+		F491151123B1FC260099F8ED /* ADNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADNavigationBar.h; sourceTree = "<group>"; };
+		F491151223B1FC260099F8ED /* ADNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNavigationBar.m; sourceTree = "<group>"; };
 		F492F07923B04CB300EA8B80 /* ADNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADNavigationController.h; sourceTree = "<group>"; };
 		F492F07A23B04CB300EA8B80 /* ADNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADNavigationController.m; sourceTree = "<group>"; };
 		F492F07E23B0599A00EA8B80 /* ADNoTificationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADNoTificationVC.h; sourceTree = "<group>"; };
@@ -553,7 +654,7 @@
 			isa = PBXGroup;
 			children = (
 				F467E5E823A922B500A23243 /* Category */,
-				F4CE904B2399E98100048C0D /* ADShoppingHall */,
+				F4CE904B2399E98100048C0D /* ADShoppingHall-- 商城商家 */,
 				F4CE90472399E95C00048C0D /* ADRestaurant-- 饭店商家 */,
 				F4CE90432399E95300048C0D /* ADHotel -- 酒店商家 */,
 				F4D873A32398E6780032775D /* ADBase */,
@@ -577,6 +678,8 @@
 				F45027DB239760BE002F0A50 /* NSDate+ADExtension.m */,
 				F45027DD239760D1002F0A50 /* UIView+ADExtension.h */,
 				F45027DE239760D1002F0A50 /* UIView+ADExtension.m */,
+				F491150C23B1F5CA0099F8ED /* UIButton+Ex.h */,
+				F491150B23B1F5CA0099F8ED /* UIButton+Ex.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -843,6 +946,117 @@
 			path = "商品管理";
 			sourceTree = "<group>";
 		};
+		F49114A423B1A7710099F8ED /* 我的钱包 */ = {
+			isa = PBXGroup;
+			children = (
+				F49114A623B1A7A00099F8ED /* ADRTMywalletVC.h */,
+				F49114A723B1A7A00099F8ED /* ADRTMywalletVC.m */,
+				F49114A923B1A7D20099F8ED /* ADRTCarryMoneyDetailVC.h */,
+				F49114AA23B1A7D20099F8ED /* ADRTCarryMoneyDetailVC.m */,
+				F49114AC23B1A7E30099F8ED /* ADRTBalanceDetailVC.h */,
+				F49114AD23B1A7E30099F8ED /* ADRTBalanceDetailVC.m */,
+			);
+			path = "我的钱包";
+			sourceTree = "<group>";
+		};
+		F49114A523B1A77E0099F8ED /* 通知信息 */ = {
+			isa = PBXGroup;
+			children = (
+				F49114AF23B1ABB20099F8ED /* ADRTMyNewsVC.h */,
+				F49114B023B1ABB20099F8ED /* ADRTMyNewsVC.m */,
+			);
+			path = "通知信息";
+			sourceTree = "<group>";
+		};
+		F49114B223B1AC850099F8ED /* 店铺统计 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "店铺统计";
+			sourceTree = "<group>";
+		};
+		F49114B323B1AC8C0099F8ED /* 店铺管理 */ = {
+			isa = PBXGroup;
+			children = (
+				F49114B423B1ACBC0099F8ED /* ADRTShopManageVC.h */,
+				F49114B523B1ACBC0099F8ED /* ADRTShopManageVC.m */,
+				F49114B723B1ACF80099F8ED /* ADRTShopManageCell.h */,
+				F49114B823B1ACF80099F8ED /* ADRTShopManageCell.m */,
+				F49114B923B1ACF80099F8ED /* ADRTShopManageCell.xib */,
+			);
+			path = "店铺管理";
+			sourceTree = "<group>";
+		};
+		F49114BC23B1AF7E0099F8ED /* 菜品管理 */ = {
+			isa = PBXGroup;
+			children = (
+				F49114BD23B1B07C0099F8ED /* ADRTFoodsManageVC.h */,
+				F49114BE23B1B07C0099F8ED /* ADRTFoodsManageVC.m */,
+				F49114C023B1B08F0099F8ED /* ADRTFoodsManageCell.h */,
+				F49114C123B1B08F0099F8ED /* ADRTFoodsManageCell.m */,
+				F49114C223B1B08F0099F8ED /* ADRTFoodsManageCell.xib */,
+				F49114C523B1B1060099F8ED /* ADRTFoodsManageTitlesView.h */,
+				F49114C623B1B1060099F8ED /* ADRTFoodsManageTitlesView.m */,
+				F49114C823B1B10F0099F8ED /* ADRTFoodsManageTitlesView.xib */,
+				F49114CA23B1B4060099F8ED /* ADRTUploadNewFoodVC.h */,
+				F49114CB23B1B4060099F8ED /* ADRTUploadNewFoodVC.m */,
+				F49114CD23B1B4230099F8ED /* ADRTUploadNewFoodCell.h */,
+				F49114CE23B1B4230099F8ED /* ADRTUploadNewFoodCell.m */,
+				F49114CF23B1B4230099F8ED /* ADRTUploadNewFoodCell.xib */,
+			);
+			path = "菜品管理";
+			sourceTree = "<group>";
+		};
+		F49114D223B1B9520099F8ED /* 取消订单 */ = {
+			isa = PBXGroup;
+			children = (
+				F49114D523B1B9EB0099F8ED /* ADRTCancelOrderVC.h */,
+				F49114D623B1B9EB0099F8ED /* ADRTCancelOrderVC.m */,
+				F49114D823B1BA000099F8ED /* ADRTCancelOrderCell.h */,
+				F49114D923B1BA000099F8ED /* ADRTCancelOrderCell.m */,
+				F49114DD23B1BCC70099F8ED /* ADRTCancelOrderCell.xib */,
+			);
+			path = "取消订单";
+			sourceTree = "<group>";
+		};
+		F49114D323B1B9750099F8ED /* 完成订单 */ = {
+			isa = PBXGroup;
+			children = (
+				F49114DF23B1C1FD0099F8ED /* ADRTDoneOrderVC.h */,
+				F49114E023B1C1FD0099F8ED /* ADRTDoneOrderVC.m */,
+				F49114E223B1C2120099F8ED /* ADRTDoneOrderCell.h */,
+				F49114E323B1C2120099F8ED /* ADRTDoneOrderCell.m */,
+				F49114E423B1C2120099F8ED /* ADRTDoneOrderCell.xib */,
+			);
+			path = "完成订单";
+			sourceTree = "<group>";
+		};
+		F49114D423B1B9810099F8ED /* 预约订单 */ = {
+			isa = PBXGroup;
+			children = (
+				F49114E723B1C38E0099F8ED /* ADRTBookingOrderVC.h */,
+				F49114E823B1C38E0099F8ED /* ADRTBookingOrderVC.m */,
+				F49114EA23B1C3BC0099F8ED /* ADRTBookingOrderCell.h */,
+				F49114EB23B1C3BC0099F8ED /* ADRTBookingOrderCell.m */,
+				F49114EC23B1C3BC0099F8ED /* ADRTBookingOrderCell.xib */,
+				F49114EF23B1DE110099F8ED /* ADRTBookingOrderDetailVC.h */,
+				F49114F023B1DE110099F8ED /* ADRTBookingOrderDetailVC.m */,
+				F491150623B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.h */,
+				F491150723B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.m */,
+				F491150823B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.xib */,
+				F49114F223B1DE300099F8ED /* ADRTBookingOrderDetailHeader.h */,
+				F49114F323B1DE300099F8ED /* ADRTBookingOrderDetailHeader.m */,
+				F491150023B1DFB60099F8ED /* ADRTBookingOrderDetailHeader.xib */,
+				F49114F523B1DE3D0099F8ED /* ADRTBookingOrderDetailFooter.h */,
+				F49114F623B1DE3D0099F8ED /* ADRTBookingOrderDetailFooter.m */,
+				F491150223B1E2BD0099F8ED /* ADRTBookingOrderDetailFooter.xib */,
+				F49114F823B1DE640099F8ED /* ADRTBookingOrderCellSectionFooter.h */,
+				F49114F923B1DE640099F8ED /* ADRTBookingOrderCellSectionFooter.m */,
+				F491150423B1E45D0099F8ED /* ADRTBookingOrderCellSectionFooter.xib */,
+			);
+			path = "预约订单";
+			sourceTree = "<group>";
+		};
 		F492F07D23B0591F00EA8B80 /* 通知信息 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1024,8 +1238,17 @@
 		F4CE90482399E95C00048C0D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F49114D423B1B9810099F8ED /* 预约订单 */,
+				F49114D323B1B9750099F8ED /* 完成订单 */,
+				F49114D223B1B9520099F8ED /* 取消订单 */,
+				F49114BC23B1AF7E0099F8ED /* 菜品管理 */,
+				F49114B323B1AC8C0099F8ED /* 店铺管理 */,
+				F49114B223B1AC850099F8ED /* 店铺统计 */,
+				F49114A523B1A77E0099F8ED /* 通知信息 */,
+				F49114A423B1A7710099F8ED /* 我的钱包 */,
 				F4CE90522399EB5200048C0D /* ADRestaurantHomeVC.h */,
 				F4CE90532399EB5200048C0D /* ADRestaurantHomeVC.m */,
+				F491149D23B19E310099F8ED /* ADRestaurantHomeVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1040,11 +1263,14 @@
 		F4CE904A2399E95C00048C0D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F491149F23B19EE40099F8ED /* ADRTCell.h */,
+				F49114A023B19EE40099F8ED /* ADRTCell.m */,
+				F49114A123B19EE40099F8ED /* ADRTCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		F4CE904B2399E98100048C0D /* ADShoppingHall */ = {
+		F4CE904B2399E98100048C0D /* ADShoppingHall-- 商城商家 */ = {
 			isa = PBXGroup;
 			children = (
 				F479212F23ADAEDC00C7CB71 /* ZBNSemenBar */,
@@ -1052,7 +1278,7 @@
 				F4CE904D2399E98100048C0D /* Model */,
 				F4CE904E2399E98100048C0D /* View */,
 			);
-			path = ADShoppingHall;
+			path = "ADShoppingHall-- 商城商家";
 			sourceTree = "<group>";
 		};
 		F4CE904C2399E98100048C0D /* Controller */ = {
@@ -1105,6 +1331,8 @@
 				F479218623ADDFAB00C7CB71 /* ADCommonFooterView.xib */,
 				F492F07923B04CB300EA8B80 /* ADNavigationController.h */,
 				F492F07A23B04CB300EA8B80 /* ADNavigationController.m */,
+				F491151123B1FC260099F8ED /* ADNavigationBar.h */,
+				F491151223B1FC260099F8ED /* ADNavigationBar.m */,
 			);
 			path = ADBase;
 			sourceTree = "<group>";
@@ -1221,31 +1449,41 @@
 				F492F0E723B0B77600EA8B80 /* ADHBWaitCheckInDetailCell.xib in Resources */,
 				F479219823ADF1D700C7CB71 /* ADDeliveGoodsDoneDetailCell.xib in Resources */,
 				F456AD0A23AB09050087A119 /* ADSHCell.xib in Resources */,
+				F49114D123B1B4230099F8ED /* ADRTUploadNewFoodCell.xib in Resources */,
 				F456AD3223AB53AA0087A119 /* ADSHChangePriceCell.xib in Resources */,
 				F479214923ADB0EC00C7CB71 /* ADSHMyWalletCommonCell.xib in Resources */,
 				F47921A123ADF80500C7CB71 /* ADSHOrderDoneCell.xib in Resources */,
 				F479215223ADB87700C7CB71 /* ADSHMyNewsCell.xib in Resources */,
 				F479216823ADC27400C7CB71 /* ADSHWaitDeliverGoodsCell.xib in Resources */,
 				F492F08523B059B300EA8B80 /* ADNotificationCell.xib in Resources */,
+				F491150123B1DFB60099F8ED /* ADRTBookingOrderDetailHeader.xib in Resources */,
 				F492F0C323B0A1B800EA8B80 /* ADSHMoneyCarryCell.xib in Resources */,
+				F49114C423B1B08F0099F8ED /* ADRTFoodsManageCell.xib in Resources */,
 				F47921BF23AE000900C7CB71 /* ADWaitExamineCell.xib in Resources */,
 				F456AD2A23AB4C6E0087A119 /* ADSHWaitForPayOrderDetailCell.xib in Resources */,
 				F45231C223AB6AB5005CBE6A /* ADStoreManageCellFour.xib in Resources */,
 				F44DF88123A9F29000A7D902 /* ADShoppingMallBusinessViewController.xib in Resources */,
 				F45027F523979D42002F0A50 /* ADLoginViewController.xib in Resources */,
+				F491150523B1E45D0099F8ED /* ADRTBookingOrderCellSectionFooter.xib in Resources */,
 				F479215723ADBCDF00C7CB71 /* ADSHMyWalletHeadView.xib in Resources */,
 				F45231BD23AB69B7005CBE6A /* ADStoreManageCellThree.xib in Resources */,
 				F450279823975778002F0A50 /* LaunchScreen.storyboard in Resources */,
 				F479218723ADDFAB00C7CB71 /* ADCommonFooterView.xib in Resources */,
 				F456AD3723AB591B0087A119 /* ADSHChangeSuccessVC.xib in Resources */,
 				F47921AF23ADFC8500C7CB71 /* ADSHReturnMoneyOrderCellTwo.xib in Resources */,
+				F491150A23B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.xib in Resources */,
 				F492F0EF23B0BC1700EA8B80 /* ADHBUploadNewGoodsCell.xib in Resources */,
+				F491150323B1E2BD0099F8ED /* ADRTBookingOrderDetailFooter.xib in Resources */,
 				F47921AA23ADFC7400C7CB71 /* ADSHReturnMoneyOrderCellOne.xib in Resources */,
+				F49114A323B19EE40099F8ED /* ADRTCell.xib in Resources */,
+				F49114E623B1C2120099F8ED /* ADRTDoneOrderCell.xib in Resources */,
 				F479219023ADF19300C7CB71 /* ADDeliveGoodsDoneCell.xib in Resources */,
 				F467E5E723A917E800A23243 /* ADGuideViewController.xib in Resources */,
 				F45231B823AB67C4005CBE6A /* ADStoreManageCellTwo.xib in Resources */,
+				F49114DE23B1BCC70099F8ED /* ADRTCancelOrderCell.xib in Resources */,
 				F479217A23ADCA7300C7CB71 /* ADSHGoDeliverGoodsCell.xib in Resources */,
 				F47921CD23AE0FF600C7CB71 /* ADSHGoodsManageCell.xib in Resources */,
+				F49114EE23B1C3BC0099F8ED /* ADRTBookingOrderCell.xib in Resources */,
 				F47921B723ADFF9B00C7CB71 /* ADReturnMoneyDetailCell.xib in Resources */,
 				F492F0F423B0C0D600EA8B80 /* ADHBGoodsManageCell.xib in Resources */,
 				F45231C723AB6AC5005CBE6A /* ADStoreManageCellFive.xib in Resources */,
@@ -1254,7 +1492,10 @@
 				F456AD1A23AB46D00087A119 /* ADSHWaitForPayCell.xib in Resources */,
 				F492F0CB23B0AA7C00EA8B80 /* ADHBShopManageCell.xib in Resources */,
 				F492F08A23B05E2E00EA8B80 /* ADNotificationDetailVC.xib in Resources */,
+				F49114BB23B1ACF80099F8ED /* ADRTShopManageCell.xib in Resources */,
+				F49114C923B1B10F0099F8ED /* ADRTFoodsManageTitlesView.xib in Resources */,
 				F492F0DF23B0B47600EA8B80 /* ADHBWaitCheckInCell.xib in Resources */,
+				F491149E23B19E310099F8ED /* ADRestaurantHomeVC.xib in Resources */,
 				F450279523975778002F0A50 /* Assets.xcassets in Resources */,
 				F479218223ADCAF000C7CB71 /* ADSHWaitDeliverGoodsDetailCell.xib in Resources */,
 				F47921C823AE0D1600C7CB71 /* ADGoodsManageTitlesView.xib in Resources */,
@@ -1392,7 +1633,9 @@
 			files = (
 				F456AD1D23AB48090087A119 /* ADSHWaitForPayVC.m in Sources */,
 				F45027EB23979C8E002F0A50 /* ADRegisterViewController.m in Sources */,
+				F49114ED23B1C3BC0099F8ED /* ADRTBookingOrderCell.m in Sources */,
 				F467E5F923A922B500A23243 /* UITextField+ZBNExtension.m in Sources */,
+				F49114D023B1B4230099F8ED /* ADRTUploadNewFoodCell.m in Sources */,
 				F450279023975775002F0A50 /* ViewController.m in Sources */,
 				F492F08F23B0651F00EA8B80 /* ADHBCell.m in Sources */,
 				F45027D623976093002F0A50 /* UIImage+ADExtension.m in Sources */,
@@ -1406,12 +1649,15 @@
 				F492F0E623B0B77600EA8B80 /* ADHBWaitCheckInDetailCell.m in Sources */,
 				F450278A23975775002F0A50 /* AppDelegate.m in Sources */,
 				F450279B23975778002F0A50 /* main.m in Sources */,
+				F49114B123B1ABB20099F8ED /* ADRTMyNewsVC.m in Sources */,
 				F47921CC23AE0FF600C7CB71 /* ADSHGoodsManageCell.m in Sources */,
+				F49114A823B1A7A00099F8ED /* ADRTMywalletVC.m in Sources */,
 				F47921A923ADFC7400C7CB71 /* ADSHReturnMoneyOrderCellOne.m in Sources */,
 				F467E5FD23A922B500A23243 /* UIImageView+ZBNExtension.m in Sources */,
 				F45231AE23AB658D005CBE6A /* ADStoreManageVC.m in Sources */,
 				F47921B623ADFF9B00C7CB71 /* ADReturnMoneyDetailCell.m in Sources */,
 				F479214823ADB0EC00C7CB71 /* ADSHMyWalletCommonCell.m in Sources */,
+				F49114FA23B1DE640099F8ED /* ADRTBookingOrderCellSectionFooter.m in Sources */,
 				F45231B723AB67C4005CBE6A /* ADStoreManageCellTwo.m in Sources */,
 				F492F0BE23B0A1A200EA8B80 /* ADSHMoneyCarryVC.m in Sources */,
 				F45231C623AB6AC5005CBE6A /* ADStoreManageCellFive.m in Sources */,
@@ -1420,30 +1666,37 @@
 				F467E5FC23A922B500A23243 /* NSString+ZBNExtension.m in Sources */,
 				F492F0AC23B071D500EA8B80 /* ADHBMyWalletVC.m in Sources */,
 				F492F09E23B0702D00EA8B80 /* ADSBMyNewsVC.m in Sources */,
+				F49114AB23B1A7D20099F8ED /* ADRTCarryMoneyDetailVC.m in Sources */,
 				F4CE90542399EB5200048C0D /* ADRestaurantHomeVC.m in Sources */,
+				F49114B623B1ACBC0099F8ED /* ADRTShopManageVC.m in Sources */,
 				F4D8734D2398B2050032775D /* ADHotelBusinessViewController.m in Sources */,
 				F45027D9239760A5002F0A50 /* UIImageView+ADExtension.m in Sources */,
 				F47921C323AE0BE100C7CB71 /* ADSHGoodsManageVC.m in Sources */,
 				F479215523ADBCCD00C7CB71 /* ADSHMyWalletHeadView.m in Sources */,
 				F492F0B823B0901800EA8B80 /* ADSHWaitAuditedVC.m in Sources */,
+				F491150923B1E8DA0099F8ED /* ADRTBookingOrderDetailCell.m in Sources */,
 				F492F0D723B0B38300EA8B80 /* ADHBDoneOrderVC.m in Sources */,
 				F479213F23ADAEDC00C7CB71 /* ZBNSegmenBarConfig.m in Sources */,
 				F45027EE23979CA8002F0A50 /* ADLoginViewController.m in Sources */,
+				F49114E523B1C2120099F8ED /* ADRTDoneOrderCell.m in Sources */,
 				F45027F123979CBB002F0A50 /* ADRetrievepsdViewController.m in Sources */,
 				F492F0D123B0B17200EA8B80 /* ADGoodsManageVC.m in Sources */,
 				F479214023ADAEDC00C7CB71 /* ZBNAlertTool.m in Sources */,
 				F479214C23ADB75600C7CB71 /* ADSHMyNewsVC.m in Sources */,
 				F492F0DE23B0B47600EA8B80 /* ADHBWaitCheckInCell.m in Sources */,
+				F49114A223B19EE40099F8ED /* ADRTCell.m in Sources */,
 				F45027D32397604C002F0A50 /* NSString+ADExtension.m in Sources */,
 				F492F0DA23B0B3A200EA8B80 /* ADHBWaitCheckInOrderVC.m in Sources */,
 				F456AD0923AB09050087A119 /* ADSHCell.m in Sources */,
 				F4D8736D2398B21C0032775D /* ADShoppingMallBusinessViewController.m in Sources */,
+				F49114BA23B1ACF80099F8ED /* ADRTShopManageCell.m in Sources */,
 				F47921BE23AE000900C7CB71 /* ADWaitExamineCell.m in Sources */,
 				F467E5F723A922B500A23243 /* UIImage+ZBNExtension.m in Sources */,
 				F456AD3123AB53AA0087A119 /* ADSHChangePriceCell.m in Sources */,
 				F492F08923B05E2E00EA8B80 /* ADNotificationDetailVC.m in Sources */,
 				F467E5F823A922B500A23243 /* NSDate+ZBNExtension.m in Sources */,
 				F45027DF239760D1002F0A50 /* UIView+ADExtension.m in Sources */,
+				F49114F423B1DE300099F8ED /* ADRTBookingOrderDetailHeader.m in Sources */,
 				F479218B23ADF17000C7CB71 /* ADDeliveGoodsDoneVC.m in Sources */,
 				F456AD2423AB4C3C0087A119 /* ADSHWaitForPayOrderDetailVC.m in Sources */,
 				F479218F23ADF19300C7CB71 /* ADDeliveGoodsDoneCell.m in Sources */,
@@ -1451,19 +1704,29 @@
 				F492F0C623B0A9FC00EA8B80 /* ADHBShopManageVC.m in Sources */,
 				F45231C123AB6AB5005CBE6A /* ADStoreManageCellFour.m in Sources */,
 				F479212E23ADAE4C00C7CB71 /* ADSHCarryMoneyDetailVC.m in Sources */,
+				F49114D723B1B9EB0099F8ED /* ADRTCancelOrderVC.m in Sources */,
 				F492F07B23B04CB300EA8B80 /* ADNavigationController.m in Sources */,
 				F479219C23ADF7E600C7CB71 /* ADSHOrderDoneVC.m in Sources */,
 				F479219723ADF1D700C7CB71 /* ADDeliveGoodsDoneDetailCell.m in Sources */,
+				F49114F723B1DE3D0099F8ED /* ADRTBookingOrderDetailFooter.m in Sources */,
 				F492F0CA23B0AA7C00EA8B80 /* ADHBShopManageCell.m in Sources */,
+				F49114DB23B1BA000099F8ED /* ADRTCancelOrderCell.m in Sources */,
+				F49114E123B1C1FD0099F8ED /* ADRTDoneOrderVC.m in Sources */,
+				F49114BF23B1B07C0099F8ED /* ADRTFoodsManageVC.m in Sources */,
 				F45027DC239760BE002F0A50 /* NSDate+ADExtension.m in Sources */,
 				F456AD3523AB58F40087A119 /* ADSHChangeSuccessVC.m in Sources */,
 				F479212B23ADADAF00C7CB71 /* ADSHMywalletVC.m in Sources */,
 				F47921A523ADFC3300C7CB71 /* ADSHReturnMoneyOrderVC.m in Sources */,
 				F492F0AF23B0722200EA8B80 /* ADHBCarryMoneyDetailVC.m in Sources */,
+				F49114F123B1DE110099F8ED /* ADRTBookingOrderDetailVC.m in Sources */,
 				F456AD2D23AB53840087A119 /* ADSHChangePriceVc.m in Sources */,
+				F49114AE23B1A7E30099F8ED /* ADRTBalanceDetailVC.m in Sources */,
+				F49114CC23B1B4060099F8ED /* ADRTUploadNewFoodVC.m in Sources */,
 				F47921D423AE1A5500C7CB71 /* ADSHUploadNewGoodsCell.m in Sources */,
 				F492F0EA23B0BBFD00EA8B80 /* ADHBUploadNewGoodsVC.m in Sources */,
 				F492F0D423B0B27200EA8B80 /* ADCancelOrderVC.m in Sources */,
+				F491151323B1FC260099F8ED /* ADNavigationBar.m in Sources */,
+				F491150D23B1F5CA0099F8ED /* UIButton+Ex.m in Sources */,
 				F47921B223ADFF8200C7CB71 /* ADReturnMoneyDetailVC.m in Sources */,
 				F479216723ADC27400C7CB71 /* ADSHWaitDeliverGoodsCell.m in Sources */,
 				F456AD1923AB46D00087A119 /* ADSHWaitForPayCell.m in Sources */,
@@ -1481,12 +1744,15 @@
 				F479216323ADC23F00C7CB71 /* ADSHWaitDeliverGoodsVC.m in Sources */,
 				F492F0B523B0725700EA8B80 /* ADHBBalanceDetailVC.m in Sources */,
 				F492F0C223B0A1B800EA8B80 /* ADSHMoneyCarryCell.m in Sources */,
+				F49114C323B1B08F0099F8ED /* ADRTFoodsManageCell.m in Sources */,
 				F45027E323977C9B002F0A50 /* ADConst.m in Sources */,
 				F492F0E223B0B76200EA8B80 /* ADHBWaitCheckInDetailVC.m in Sources */,
 				F47921A023ADF80500C7CB71 /* ADSHOrderDoneCell.m in Sources */,
 				F492F0BB23B0906A00EA8B80 /* ADSHRefundedVC.m in Sources */,
 				F47921AE23ADFC8500C7CB71 /* ADSHReturnMoneyOrderCellTwo.m in Sources */,
 				F467E5FB23A922B500A23243 /* UIView+ZBNExtension.m in Sources */,
+				F49114E923B1C38E0099F8ED /* ADRTBookingOrderVC.m in Sources */,
+				F49114C723B1B1060099F8ED /* ADRTFoodsManageTitlesView.m in Sources */,
 				F479219323ADF1C500C7CB71 /* ADDeliveGoodsDoneDetailVC.m in Sources */,
 				F467E5FA23A922B500A23243 /* UIBarButtonItem+ZBNExtension.m in Sources */,
 			);

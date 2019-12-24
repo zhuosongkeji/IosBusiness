@@ -7,6 +7,7 @@
 //
 
 #import "ADNavigationController.h"
+#import "ADNavigationBar.h"
 
 @interface ADNavigationController () <UIGestureRecognizerDelegate>
 
@@ -15,6 +16,20 @@
 @end
 
 @implementation ADNavigationController
+
+
+#pragma mark - 初始化方法
+
+// 在这里用自己的navBar替换系统的
+- (instancetype)initWithRootViewController:(UIViewController *)rootViewController
+{
+    if (self = [super initWithRootViewController:rootViewController]) {
+        [self setValue:[[ADNavigationBar alloc] init] forKeyPath:@"navigationBar"];
+    }
+    return self;
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

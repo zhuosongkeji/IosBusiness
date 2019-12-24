@@ -47,6 +47,7 @@
     ADSHCell *cell = [tableView dequeueReusableCellWithIdentifier:ADSHCellID];
     if (!cell) {
         cell = [[NSBundle mainBundle] loadNibNamed:@"ADSHCell" owner:nil options:nil].lastObject;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return cell;
 }

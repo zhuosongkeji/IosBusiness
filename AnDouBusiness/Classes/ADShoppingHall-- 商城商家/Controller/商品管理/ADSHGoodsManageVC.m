@@ -25,10 +25,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = ADCommonBgColor;
-    
+        
     // 设置UI
     [self setupUI];
+    self.view.backgroundColor = ADCommonBgColor;
+
 }
 
 
@@ -53,7 +54,7 @@
     CGFloat tableX = 0;
     CGFloat tableY = titleH + 88;
     CGFloat tableW = ADScreenW;
-    CGFloat tableH = ADScreenH - titleH;
+    CGFloat tableH = ADScreenH ;
     tableV.frame = CGRectMake(tableX, tableY, tableW, tableH);
     tableV.backgroundColor = ADCommonBgColor;
     [self.view addSubview:tableV];

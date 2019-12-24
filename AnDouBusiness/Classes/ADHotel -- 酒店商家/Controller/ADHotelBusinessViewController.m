@@ -85,7 +85,14 @@
         ADHBDoneOrderVC *vc = [[ADHBDoneOrderVC alloc] init];
         [weakSelf.navigationController pushViewController:vc animated:YES];
     };
-    // shanyishao
+    // 扫一扫
+//    cell.scanCellClickTask = ^{
+//
+//    };
+    // 店铺统计
+//    cell.shopStatisticsClickTask = ^{
+//        
+//    };
     return cell;
 }
 

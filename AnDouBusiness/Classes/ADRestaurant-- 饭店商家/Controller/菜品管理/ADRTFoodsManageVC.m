@@ -1,39 +1,37 @@
 //
-//  ADGoodsManageVC.m
+//  ADRTFoodsManageVC.m
 //  AnDouBusiness
 //
-//  Created by 周芳圆 on 2019/12/23.
+//  Created by 周芳圆 on 2019/12/24.
 //  Copyright © 2019 ZhouBunian. All rights reserved.
 //
 
-#import "ADGoodsManageVC.h"
+#import "ADRTFoodsManageVC.h"
+#import "ADRTFoodsManageCell.h"
+#import "ADRTFoodsManageTitlesView.h"
+#import "ADRTUploadNewFoodVC.h"
 
-#import "ADGoodsManageTitlesView.h"
-#import "ADSHGoodsManageCell.h"
-#import "ADSHUploadNewGoodsVC.h"
-#import "ADHBUploadNewGoodsVC.h"
+@interface ADRTFoodsManageVC () <UITableViewDelegate, UITableViewDataSource>
 
-@interface ADGoodsManageVC () <UITableViewDelegate, UITableViewDataSource>
-
-@property (nonatomic, weak) ADGoodsManageTitlesView *titlesView;
+@property (nonatomic, weak) ADRTFoodsManageTitlesView *titlesView;
 
 @property (nonatomic, weak) UITableView *tableView;
 
-
 @end
 
-@implementation ADGoodsManageVC
+@implementation ADRTFoodsManageVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    
     [self setupUI];
 }
+
 
 - (void)setupUI
 {
     // titlesView
-    ADGoodsManageTitlesView *titlesView = [ADGoodsManageTitlesView ad_viewFromXib];
+    ADRTFoodsManageTitlesView *titlesView = [ADRTFoodsManageTitlesView ad_viewFromXib];
     CGFloat titleH = 50;
     CGFloat titleW = ADScreenW;
     CGFloat titleX = 0;
@@ -42,10 +40,13 @@
     [self.view addSubview:titlesView];
     self.titlesView = titlesView;
     ADWeakSelf;
-    self.titlesView.uploadNewGoodsClickTask = ^{
-        ADHBUploadNewGoodsVC *vc = [[ADHBUploadNewGoodsVC alloc] init];
+    
+    // 上传新菜品的点击 -- >
+    self.titlesView.uploadNewFoodsBtnClickTask = ^{
+        ADRTUploadNewFoodVC *vc = [[ADRTUploadNewFoodVC alloc] init];
         [weakSelf.navigationController pushViewController:vc animated:YES];
     };
+   
     // tableView
     UITableView *tableV = [[UITableView alloc] init];
     CGFloat tableX = 0;
@@ -60,17 +61,14 @@
     self.tableView = tableV;
 }
 
-
-
-#pragma mark - Table view data source
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 6;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    ADSHGoodsManageCell *cell = [ADSHGoodsManageCell registerTableViewCellWith:tableView];
+    ADRTFoodsManageCell *cell = [ADRTFoodsManageCell registerTableViewCellWith:tableView];
     return cell;
 }
 
@@ -78,7 +76,6 @@
 {
     return 130;
 }
-
 
 
 @end
