@@ -55,7 +55,7 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="D2p-BF-iVN"/>
-            <point key="canvasLocation" x="147" y="50"/>
+            <point key="canvasLocation" x="-18" y="33"/>
         </tableViewCell>
     </objects>
     <resources>

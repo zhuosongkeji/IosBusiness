@@ -47,9 +47,9 @@
 {
     if (self.childViewControllers.count >= 1) {
         UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//        [backButton setTitle:@"返回" forState:UIControlStateNormal];
-//        [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-//        [backButton setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
+        [backButton setTitle:@"返回" forState:UIControlStateNormal];
+        [backButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [backButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
         [backButton setImage:[UIImage imageNamed:@"icon_back"] forState:UIControlStateNormal];
         [backButton setImage:[UIImage imageNamed:@"icon_back"] forState:UIControlStateHighlighted];
         [backButton sizeToFit];

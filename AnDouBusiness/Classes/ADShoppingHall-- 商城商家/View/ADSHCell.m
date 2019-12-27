@@ -101,11 +101,23 @@
     // 通知信息
     UITapGestureRecognizer *notificationGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(notificationCellClick)];
     [self.viewCellNine addGestureRecognizer:notificationGes];
+    // 店铺统计
+    UITapGestureRecognizer *statisticsGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(statisticsCellClick)];
+    [self.viewCellEight addGestureRecognizer:statisticsGes];
 }
 
 
 
 #pragma mark -- 事件监听
+
+// 店铺统计
+- (void)statisticsCellClick
+{
+    if (self.statisticsCellClickTask) {
+        self.statisticsCellClickTask();
+    }
+}
+
 // 待付款的点击
 - (void)oneViewClick
 {

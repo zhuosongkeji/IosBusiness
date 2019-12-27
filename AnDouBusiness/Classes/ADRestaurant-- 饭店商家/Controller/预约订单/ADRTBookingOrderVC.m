@@ -16,10 +16,10 @@
 
 @implementation ADRTBookingOrderVC
 
+#pragma mark -- 生命周期方法
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-  
 }
 
 #pragma mark - Table view data source
@@ -31,9 +31,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // 1. 创建预约订单cell
     ADRTBookingOrderCell *cell = [ADRTBookingOrderCell registerTableViewCellWith:tableView];
     ADWeakSelf;
+    // 2. 点击订单详情按钮执行
     cell.orderDetailBtnClickTask = ^{
+        // 3. 创建订单详情控制器
         ADRTBookingOrderDetailVC *vc = [[ADRTBookingOrderDetailVC alloc] init];
         [weakSelf.navigationController pushViewController:vc animated:YES];
     };

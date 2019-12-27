@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"商品上传";
     [self setupFooterView];
     self.view.backgroundColor  = ADCommonBgColor;
 }

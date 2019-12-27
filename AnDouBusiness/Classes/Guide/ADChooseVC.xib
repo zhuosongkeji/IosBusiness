@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ADChooseVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择查看的内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPb-Un-ia1">
+                    <rect key="frame" x="118" y="35" width="139" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TxC-8v-B3R">
+                    <rect key="frame" x="77.5" y="76" width="220" height="120"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwS-CJ-8En" customClass="ADButton">
+                            <rect key="frame" x="0.0" y="0.0" width="220" height="90"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" image="组 16">
+                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </state>
+                            <connections>
+                                <action selector="gotelBtnClick:" destination="-1" eventType="touchUpInside" id="KN8-5d-Cd1"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="酒店商家中心" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6R-g5-dja">
+                            <rect key="frame" x="0.0" y="90" width="220" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="H6R-g5-dja" firstAttribute="top" secondItem="cwS-CJ-8En" secondAttribute="bottom" id="5F7-xq-GG8"/>
+                        <constraint firstAttribute="trailing" secondItem="cwS-CJ-8En" secondAttribute="trailing" id="7Jm-ZO-KIL"/>
+                        <constraint firstAttribute="bottom" secondItem="H6R-g5-dja" secondAttribute="bottom" id="FCG-YO-KOC"/>
+                        <constraint firstAttribute="width" constant="220" id="I9J-Bi-Aj8"/>
+                        <constraint firstItem="H6R-g5-dja" firstAttribute="leading" secondItem="TxC-8v-B3R" secondAttribute="leading" id="Iju-dq-LDd"/>
+                        <constraint firstItem="cwS-CJ-8En" firstAttribute="top" secondItem="TxC-8v-B3R" secondAttribute="top" id="ccH-Gs-dw4"/>
+                        <constraint firstAttribute="trailing" secondItem="H6R-g5-dja" secondAttribute="trailing" id="fSz-kS-tCO"/>
+                        <constraint firstAttribute="height" constant="120" id="q0f-Qm-HBt"/>
+                        <constraint firstItem="cwS-CJ-8En" firstAttribute="leading" secondItem="TxC-8v-B3R" secondAttribute="leading" id="qoD-Ur-eaK"/>
+                        <constraint firstAttribute="bottom" secondItem="cwS-CJ-8En" secondAttribute="bottom" constant="30" id="wHd-eI-mkL"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4SE-cU-y59">
+                    <rect key="frame" x="77.5" y="236" width="220" height="120"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rb0-oK-W5n" customClass="ADButton">
+                            <rect key="frame" x="0.0" y="0.0" width="220" height="90"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" image="组 17">
+                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </state>
+                            <connections>
+                                <action selector="restrantBtnClick:" destination="-1" eventType="touchUpInside" id="jbE-oT-dqx"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="饭店商家中心" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cC8-8H-SfT">
+                            <rect key="frame" x="0.0" y="90" width="220" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="rb0-oK-W5n" firstAttribute="top" secondItem="4SE-cU-y59" secondAttribute="top" id="F3x-0b-a6W"/>
+                        <constraint firstAttribute="trailing" secondItem="rb0-oK-W5n" secondAttribute="trailing" id="QM4-SQ-DgM"/>
+                        <constraint firstItem="cC8-8H-SfT" firstAttribute="leading" secondItem="4SE-cU-y59" secondAttribute="leading" id="QdJ-pi-aDK"/>
+                        <constraint firstAttribute="bottom" secondItem="rb0-oK-W5n" secondAttribute="bottom" constant="30" id="RX1-Kh-YmG"/>
+                        <constraint firstItem="cC8-8H-SfT" firstAttribute="top" secondItem="rb0-oK-W5n" secondAttribute="bottom" id="Y2r-xb-PzG"/>
+                        <constraint firstAttribute="height" constant="120" id="YbL-1q-fyV"/>
+                        <constraint firstAttribute="bottom" secondItem="cC8-8H-SfT" secondAttribute="bottom" id="Zhm-1X-eDR"/>
+                        <constraint firstAttribute="trailing" secondItem="cC8-8H-SfT" secondAttribute="trailing" id="iM1-Cc-q6O"/>
+                        <constraint firstAttribute="width" constant="220" id="nlK-5V-M95"/>
+                        <constraint firstItem="rb0-oK-W5n" firstAttribute="leading" secondItem="4SE-cU-y59" secondAttribute="leading" id="xdV-B3-1y4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEd-Lf-1yH">
+                    <rect key="frame" x="77.5" y="396" width="220" height="120"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXx-hW-FqK" customClass="ADButton">
+                            <rect key="frame" x="0.0" y="0.0" width="220" height="90"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" image="组 18"/>
+                            <connections>
+                                <action selector="shoppingHallBtnClick:" destination="-1" eventType="touchUpInside" id="EjJ-Fz-LpH"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商城商家中心" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXu-uX-QV6">
+                            <rect key="frame" x="0.0" y="90" width="220" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="kXu-uX-QV6" secondAttribute="trailing" id="2MB-HO-eta"/>
+                        <constraint firstAttribute="bottom" secondItem="kXu-uX-QV6" secondAttribute="bottom" id="8Ll-Tq-PAj"/>
+                        <constraint firstItem="BXx-hW-FqK" firstAttribute="leading" secondItem="bEd-Lf-1yH" secondAttribute="leading" id="bFi-L6-aME"/>
+                        <constraint firstItem="BXx-hW-FqK" firstAttribute="top" secondItem="bEd-Lf-1yH" secondAttribute="top" id="dRT-Nn-5Xj"/>
+                        <constraint firstItem="kXu-uX-QV6" firstAttribute="top" secondItem="BXx-hW-FqK" secondAttribute="bottom" id="ktt-sD-OCT"/>
+                        <constraint firstAttribute="height" constant="120" id="oPo-sJ-ljN"/>
+                        <constraint firstAttribute="trailing" secondItem="BXx-hW-FqK" secondAttribute="trailing" id="pTP-Vk-EoP"/>
+                        <constraint firstAttribute="bottom" secondItem="BXx-hW-FqK" secondAttribute="bottom" constant="30" id="tlG-4v-pG7"/>
+                        <constraint firstItem="kXu-uX-QV6" firstAttribute="leading" secondItem="bEd-Lf-1yH" secondAttribute="leading" id="wvb-2X-QZn"/>
+                        <constraint firstAttribute="width" constant="220" id="z8y-Ap-PSG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EPb-Un-ia1" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="35" id="4iM-BB-Dqo"/>
+                <constraint firstItem="TxC-8v-B3R" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BCR-E9-tbb"/>
+                <constraint firstItem="EPb-Un-ia1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KPM-E8-u3i"/>
+                <constraint firstItem="4SE-cU-y59" firstAttribute="top" secondItem="TxC-8v-B3R" secondAttribute="bottom" constant="40" id="OGa-qG-vpx"/>
+                <constraint firstItem="4SE-cU-y59" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ted-j2-hYM"/>
+                <constraint firstItem="bEd-Lf-1yH" firstAttribute="top" secondItem="4SE-cU-y59" secondAttribute="bottom" constant="40" id="ZDH-wL-vN6"/>
+                <constraint firstItem="TxC-8v-B3R" firstAttribute="top" secondItem="EPb-Un-ia1" secondAttribute="bottom" constant="20" id="jcj-Is-bAb"/>
+                <constraint firstItem="bEd-Lf-1yH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tKj-4V-Ttt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-113" y="103"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="组 16" width="64.5" height="64.5"/>
+        <image name="组 17" width="64.5" height="65"/>
+        <image name="组 18" width="64.5" height="64.5"/>
+    </resources>
+</document>

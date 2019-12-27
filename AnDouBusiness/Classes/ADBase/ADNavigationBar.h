@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)ad_setGlobalBackGroundImage: (UIImage *)globalImg;
 
++ (void)ad_setGlobalBackGroundColor:(UIColor *)globalColor;
+
 /**
  *  设置全局导航栏标题颜色, 和文字大小
  *

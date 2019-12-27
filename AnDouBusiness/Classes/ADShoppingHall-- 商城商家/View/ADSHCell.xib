@@ -706,7 +706,7 @@
                 <outlet property="viewCellThree" destination="ZbU-gY-x59" id="Qvx-wG-Ao3"/>
                 <outlet property="viewCellTwo" destination="BV3-0p-WuK" id="Eye-EV-YfH"/>
             </connections>
-            <point key="canvasLocation" x="-1964" y="-321"/>
+            <point key="canvasLocation" x="-2793" y="-262"/>
         </tableViewCell>
     </objects>
     <resources>

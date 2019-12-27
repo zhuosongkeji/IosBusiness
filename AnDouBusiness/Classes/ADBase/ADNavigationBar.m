@@ -10,6 +10,13 @@
 
 @implementation ADNavigationBar
 
++ (void)ad_setGlobalBackGroundColor:(UIColor *)globalColor
+{
+    UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[NSClassFromString(@"ADNavigationController")]];
+    [navBar setBarTintColor:globalColor];
+    
+}
+
 + (void)ad_setGlobalBackGroundImage:(UIImage *)globalImg
 {
     // 作为ADNavigationController的navBar的时候

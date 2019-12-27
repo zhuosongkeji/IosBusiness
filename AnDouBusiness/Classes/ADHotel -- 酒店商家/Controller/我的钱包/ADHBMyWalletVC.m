@@ -45,7 +45,7 @@
 - (void)setupHeaderView
 {
     ADSHMyWalletHeadView *headV = [ADSHMyWalletHeadView ad_viewFromXib];
-    headV.frame =CGRectMake(0, 88, self.view.ad_width, 150);
+    headV.frame =CGRectMake(0, getRectNavAndStatusHight, self.view.ad_width, 150);
     [self.view addSubview:headV];
     self.headView = headV;
     ADWeakSelf;
@@ -61,7 +61,7 @@
 {
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.segmentBarVC.segmentBar.frame = CGRectMake(0,0 , self.view.ad_width, 50);
-    self.segmentBarVC.view.frame = CGRectMake(0, 228, self.view.ad_width, self.view.ad_height-64);
+    self.segmentBarVC.view.frame = CGRectMake(0, 140 + getRectNavAndStatusHight, self.view.ad_width, self.view.ad_height-64);
     [self.view addSubview:self.segmentBarVC.view];
     //添加控制器
     NSArray *items = @[@"余额明细", @"提现明细"];

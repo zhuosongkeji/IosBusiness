@@ -16,6 +16,8 @@
 #import "ADCancelOrderVC.h"
 #import "ADHBWaitCheckInOrderVC.h"
 #import "ADHBDoneOrderVC.h"
+#import "ADChooseVC.h"
+#import "ADAccountInformationVC.h"
 
 @interface ADHotelBusinessViewController ()
 
@@ -24,6 +26,13 @@
 @end
 
 @implementation ADHotelBusinessViewController
+
+- (IBAction)settingBtnClick:(UIButton *)sender {
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[ADChooseVC alloc] init]];
+//    [UIApplication sharedApplication].keyWindow.rootViewController = nav;
+    ADAccountInformationVC *vc = [[ADAccountInformationVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

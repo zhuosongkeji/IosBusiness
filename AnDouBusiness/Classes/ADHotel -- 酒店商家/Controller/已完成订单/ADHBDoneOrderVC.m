@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-  
+    self.navigationItem.title = @"已完成订单";
 }
 
 #pragma mark - Table view data source

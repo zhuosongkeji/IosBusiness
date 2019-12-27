@@ -20,6 +20,8 @@
 #import "ADSHReturnMoneyOrderVC.h"      // 退货退款订单
 #import "ADSHGoodsManageVC.h"           // 商品管理
 #import "ADNoTificationVC.h"            // 通知信息
+#import "ADOrderCenterVC.h"
+#import "ADSHShopStatisticsVC.h"
 
 @interface ADShoppingMallBusinessViewController ()
 
@@ -43,8 +45,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 设置中间View的圆角和边框
-    [self setupMiddleView]; 
+    [self setupMiddleView];
     
+    [self setupGes];
+}
+
+
+
+
+/*! 给中间的view添加点击手势 */
+- (void)setupGes
+{
+    UITapGestureRecognizer *middleGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(middleViewClick)];
+    self.middleView.userInteractionEnabled = YES;
+    [self.middleView addGestureRecognizer:middleGes];
+}
+
+- (void)middleViewClick
+{
+    ADOrderCenterVC *vc = [[ADOrderCenterVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*! 设置中间订单view的圆角 */
@@ -122,6 +142,11 @@
     // 通知信息
     cell.notificationCellClickTask = ^{
         ADNoTificationVC *vc = [[ADNoTificationVC alloc] init];
+        [weakSelf.navigationController pushViewController:vc animated:YES];
+    };
+    //
+    cell.statisticsCellClickTask = ^{
+        ADSHShopStatisticsVC *vc = [[ADSHShopStatisticsVC alloc] init];
         [weakSelf.navigationController pushViewController:vc animated:YES];
     };
     return cell;

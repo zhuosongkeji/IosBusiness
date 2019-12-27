@@ -26,6 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"商品管理";
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupUI];
 }
@@ -37,7 +38,7 @@
     CGFloat titleH = 50;
     CGFloat titleW = ADScreenW;
     CGFloat titleX = 0;
-    CGFloat titleY = 88;
+    CGFloat titleY = getRectNavAndStatusHight;
     titlesView.frame = CGRectMake(titleX, titleY, titleW, titleH);
     [self.view addSubview:titlesView];
     self.titlesView = titlesView;
@@ -49,7 +50,7 @@
     // tableView
     UITableView *tableV = [[UITableView alloc] init];
     CGFloat tableX = 0;
-    CGFloat tableY = titleH + 88;
+    CGFloat tableY = titleH + getRectNavAndStatusHight;
     CGFloat tableW = ADScreenW;
     CGFloat tableH = ADScreenH - titleH;
     tableV.frame = CGRectMake(tableX, tableY, tableW, tableH);

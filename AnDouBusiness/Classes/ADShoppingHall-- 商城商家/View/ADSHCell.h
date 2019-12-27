@@ -34,6 +34,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) void(^goodsManageCellClickTask)(void);
 /*! 通知信息 */
 @property (nonatomic, copy) void(^notificationCellClickTask)(void);
+/*! 店铺统计 */
+@property (nonatomic, copy) void(^statisticsCellClickTask)(void);
 
 @end
 

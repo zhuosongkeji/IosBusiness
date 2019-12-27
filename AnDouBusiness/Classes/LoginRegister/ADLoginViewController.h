@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ADLoginViewController : UIViewController
 
+@property (nonatomic, copy) void(^loginBtnClickTask)(void);
+
 @end
 
 NS_ASSUME_NONNULL_END

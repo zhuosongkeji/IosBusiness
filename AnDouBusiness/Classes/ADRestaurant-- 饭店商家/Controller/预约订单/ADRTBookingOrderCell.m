@@ -11,7 +11,7 @@
 
 @interface ADRTBookingOrderCell ()
 
-
+/*! 红色的背景view */
 @property (weak, nonatomic) IBOutlet UIView *redView;
 
 
@@ -36,6 +36,7 @@
     }
 }
 
+// 注册cell
 + (instancetype)registerTableViewCellWith:(UITableView *)tableView
 {
     static NSString * const ADRTBookingOrderCellID = @"ADRTBookingOrderCellID";
