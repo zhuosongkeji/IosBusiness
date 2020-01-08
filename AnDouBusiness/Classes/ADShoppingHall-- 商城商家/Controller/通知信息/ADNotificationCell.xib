@@ -64,7 +64,7 @@
             <connections>
                 <outlet property="tipsView" destination="THq-U5-r8g" id="dXn-T3-cT3"/>
             </connections>
-            <point key="canvasLocation" x="-109" y="-27"/>
+            <point key="canvasLocation" x="142" y="-17"/>
         </tableViewCell>
     </objects>
 </document>
